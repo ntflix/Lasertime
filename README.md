@@ -23,7 +23,6 @@ docker run -d -p8080:8080 -e DATABASE_HOST="dev" -e DATABASE_PASSWORD="epicpassw
 ```
 
 ## Environment variables 🌈
-The default values are OK to use if you use the MySQL Docker configuration in the "`/SQL Server Setup`" folder of [the Lasertime Server repo](https://github.com/ntflix/Lasertime-API). Well, all apart from the hostname, of course, unless you deploy it on a machine with the hostname `hostname`, in which case no changes at all to the environmental vars are required!
 
 Name | Description | Example | Default value
 --- | --- | --- | ---
